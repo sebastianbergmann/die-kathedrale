@@ -1,0 +1,1132 @@
+Im Gewölbekeller,Warte
+,Ja
+,Ja
+,Ost
+In einem Kellerraum,Rede mit Dani
+,Untersuche Nische
+,Nehme Bündel
+,Untersuche Briefe
+,Untersuche Pergament
+,Lese das Pergament Abschnitt 1
+,West
+Im Gewölbekeller,Süd
+Westaufgang / Keller,Rauf
+Am Westturm,Ost
+Am Hauptportal,Nord
+Kirchenschiff / Mitte,Nord
+Vor dem Altar,Ost
+Am Ostportal,Nord
+Osttreppe,Nord
+In der Sakristei,Untersuche Vitrine
+,Zerstöre Glas der Vitrine
+,Untersuche Bücher
+,Nehme Lexikon
+,Ost
+Osttreppe,Süd
+Am Ostportal,Untersuche Opferstock
+,Nehme Kerze
+,Nehme Talglicht
+,West
+Vor dem Altar,West
+Am Westportal,Entzünde ewiges Licht mit Kerze
+,Süd
+Unter der Westempore,Süd
+Am Westturm,Rauf
+Westturm / Hauptempore,Rauf
+Westbalustrade,Ost
+Mittelbalustrade,Ost
+Ostbalustrade,Nord
+An der kleinen Treppe,Untersuche Treppe
+,Springe rauf
+Am Ende der Ostbalustrade,Untersuche Säulen
+,Untersuche Kapitell
+,Drehe Kapitell
+,Nord
+In der Steinfratze,Untersuche Löcher
+,Untersuche Tafel
+,Suche im Lexikon nach Midas
+,Öffne Tafel
+,Untersuche Hohlraum
+,Nehme Edelstein
+,Untersuche Schriftstück
+,Lege Edelstein in linkes Loch
+,Lege Edelstein in rechtes Loch
+,Nehme Edelstein
+,Süd
+Am Ende der Ostbalustrade,Süd
+An der kleinen Treppe,Springe runter
+Ostbalustrade,West
+Mittelbalustrade,West
+Westbalustrade,Runter
+Westturm / Hauptempore,Ost
+Auf der Hauptempore,Runter
+Balkon der Hauptempore,Untersuche Treppe
+,Untersuche Holz
+,Untersuche Astlöcher
+,Drücke Knopf
+,Süd
+In einem engen Tunnel,Rauf
+Auf einem Absatz,Rauf
+Am Ende des Tunnels,Öffne Luke
+,Gehe durch Luke
+In der Nabe,Untersuche Glasmosaik
+,Untersuche Glasstein
+,Nehme Rubin
+,Setze Edelstein in Glasmosaik
+,Lege Rubin
+,
+,Lese das Pergament Abschnitt 2
+,Gehe durch Luke
+Am Ende des Tunnels,Runter
+Auf einem Absatz,Runter
+In einem engen Tunnel,Nord
+Balkon der Hauptempore,Rauf
+Auf der Hauptempore,Dani folge mir
+,West
+Westturm / Hauptempore,Runter
+Am Westturm,Ost
+Am Hauptportal,Ost
+Am Ostturm,Nord
+Unter der Ostempore,Nord
+Am Ostportal,Untersuche Weihwasserbecken
+,Untersuche Schale
+,Lösche Kerze
+,Lege Kerze in Schale
+,Süd
+Unter der Ostempore,Süd
+Am Ostturm,Runter
+Ostaufgang / Keller,West
+Werkstatt,Öffne Werkzeugschrank
+,Untersuche Werkzeugschrank
+,Nehme Schraubenschlüssel
+,Nehme Kette
+,Nehme Petroleumfunzel
+,Ost
+Ostaufgang / Keller,Rauf
+Am Ostturm,West
+Am Hauptportal,West
+Am Westturm,Nord
+Unter der Westempore,Nord
+Am Westportal,Entzünde Petroleumfunzel
+,Süd
+Unter der Westempore,Süd
+Am Westturm,Ost
+Am Hauptportal,Ost
+Am Ostturm,Runter
+Ostaufgang / Keller,Nord
+In der neuen Krypta,Nord
+Am Ende der neuen Krypta,Untersuche Wasserleitung
+,Flicke Wasserleitung mit Talglicht
+,Warte
+,Nord
+In der kleinen Kammer,Untersuche Basrelief
+,Suche im Lexikon nach Kathaura
+,Dani geh zum Weihwasserbecken
+,Warte
+,Warte
+,Warte
+,Warte
+,Warte
+,Nord
+In der Grabkammer,Untersuche Sarkophag
+,Lösche Petroleumfunzel
+,Öffne Sarkophag
+,Zerstöre Mumie
+,Ja
+,Gehe in Sarkophag
+,Schließe Deckel
+,Warte
+,
+Am Ende der neuen Krypta,Lese das Pergament Abschnitt 3
+,Süd
+In der neuen Krypta,Süd
+Ostaufgang / Keller,Rauf
+Am Ostturm,Nord
+Unter der Ostempore,Nord
+Am Ostportal,Gebe Pergament an Dani
+,Gebe Briefe an Dani
+,Gebe Kette an Dani
+,Gebe Schraubenschlüssel an Dani
+,Gebe Lexikon an Dani
+,Dani folge mir
+,West
+Vor dem Altar,West
+Am Westportal,Untersuche Säule
+,Untersuche Standbild
+,Untersuche Dannenburg
+,Nehme Hammer
+,Süd
+Unter der Westempore,Untersuche Standbild
+,Untersuche Sieberlein
+,Nehme Spaten
+,Süd
+Am Westturm,Untersuche Standbild
+,Untersuche Feingärber
+,Nehme Stab
+,Ost
+Am Hauptportal,Ost
+Am Ostturm,Untersuche Standbild
+,Untersuche Rochusthal
+,Nehme Schlüsselchen
+,Nord
+Unter der Ostempore,Untersuche Standbild
+,Untersuche Huisemann
+,Nehme Kästchen
+,Nord
+Am Ostportal,Untersuche Standbild
+,Untersuche Ulbering
+,Nehme Zepter
+,Nord
+Osttreppe,Untersuche Standbild
+,Untersuche Ettenheim
+,Nehme Schwert
+,Süd
+Am Ostportal,West
+Vor dem Altar,West
+Am Westportal,Nord
+Westtreppe,Untersuche Standbild
+,Untersuche Schloberg
+,Nehme Büchlein
+,Süd
+Am Westportal,Entzünde Petroleumfunzel
+,Süd
+Unter der Westempore,Ost
+Kirchenschiff / Mitte,Ost
+Unter der Ostempore,Untersuche Standbild
+,Drehe Fuß von Huisemann
+,Rauf
+Auf der Wendeltreppe,Rauf
+In einer kleinen Kammer,Öffne Türe mit Zepter
+,Nord
+In der zweiten Kammer,Untersuche Wände
+,Untersuche Mauernische
+,Nehme Buch
+,Untersuche Buch
+,Untersuche Büchlein
+,Untersuche Gravur
+,Lese Seite 203 im Buch
+,Öffne Fallgitter
+,Stütze Fallgitter mit Stab
+,Nord
+Im Tunnel,Durchtrenne Tau mit Schwert
+,Nord
+In der dritten Kammer,Untersuche Muster
+,Lege Hammer in Abdruck
+,Nord
+In der vierten Kammer,Öffne Kästchen mit Schlüsselchen
+,Untersuche Kästchen
+,Untersuche Stein
+,Nehme Stein mit Spaten
+,Lege den Stein ins Kästchen
+,Schließe Kästchen
+,Lege Schlüsselchen
+,Lege Spaten
+,Lege Kästchen
+,Lege Zepter
+,Lege Büchlein
+,Lege Schwert
+,Lege Buch
+,Süd
+In der dritten Kammer,Süd
+Im Tunnel,Süd
+In der zweiten Kammer,Süd
+In der kleinen Kammer,Runter
+Auf der Wendeltreppe,Runter
+Unter der Ostempore,Lösche Petroleumfunzel
+,Dani folge mir
+,Nehme Pergament von Dani
+,Nehme Kerze von Dani
+,Nehme Kette von Dani
+,
+,Lese das Pergament Abschnitt 4
+,Süd
+Am Ostturm,Rauf
+Ostturm / Hauptempore,Nord
+Ostempore,Untersuche Portraits
+,Untersuche Nöttinger
+,Untersuche Petersen
+,Untersuche Neuberghaus
+,Untersuche Hohenstein
+,Untersuche Nederlinger
+,Untersuche Strack
+,Süd
+Ostturm / Hauptempore,Runter
+Am Ostturm,West
+Am Hauptportal,West
+Am Westturm,Rauf
+Westturm / Hauptempore,Nord
+Westempore,Untersuche Portraits
+,Untersuche Peterskirch
+,Untersuche Eckertsham
+,Untersuche Mackensen
+,Untersuche Niederrhein
+,Untersuche Wittelsbach
+,Untersuche Klausenburg
+,Süd
+Westturm / Hauptempore,Runter
+Am Westturm,Nord
+Unter der Westempore,Nord
+Am Westportal,Entzünde Kerze
+,Süd
+Unter der Westempore,Süd
+Am Westturm,Runter
+Westaufgang / Keller,Nord
+Im Gewölbekeller,Nord
+In der Kardinalsgruft,Untersuche Särge
+,Klettere auf Sarg von Klausenburg
+,Untersuche Decke
+,Befestige Kette an Winde
+,Befestige Kette an Sarg von Klausenburg
+,Drehe Winde
+,Untersuche Sarg von Klausenburg
+,Runter
+,Runter
+Im Schacht,Runter
+In der Kaverne,Untersuche Fäden
+,Nord
+Am Farnstrauch,Untersuche Gewächse
+,Nord
+Am Tümpel,Nord
+Am Korallenbaum,Untersuche Ast
+,West
+Auf dem Moosteppich,Untersuche Moos
+,Untersuche Muster
+,Untersuche Eidechse
+,Süd
+Am Sumpf,Untersuche Pfütze
+,Untersuche Gehölz
+,Untersuche Oberfläche
+,West
+Im Unterholz,Untersuche Holz
+,Nord
+An der Schlucht,Untersuche Schlucht
+,Süd
+Im Unterholz,Krieche nach Süden
+Am Schachtelhalmwald,Untersuche Korallenbäume
+,Ost
+An der Felswand,Nehme Schriftrolle
+,Untersuche Schriftrolle
+,Nehme Muskete
+,Untersuche Muskete
+,Rauf
+In der Felswand,Rauf
+In zehn Metern Höhe,Untersuche Riss
+,Untersuche Spalte
+,Lege Schießpulver in Spalte
+,Lege Schriftrolle in Spalte
+,Entzünde Schriftrolle mit Kerze
+,Werfe Muskete nach unten
+,Rauf
+In zwanzig Metern Höhe,Runter
+In zehn Metern Höhe,Runter
+In der Felswand,Runter
+An der Felswand,West
+Am Schachtelhalmwald,Nord
+Im Unterholz,Nord
+An der Schlucht,Süd
+Im Unterholz,Ost
+Am Sumpf,Nord
+Auf dem Moosteppich,Ost
+Am Korallenbaum,Süd
+Am Tümpel,Süd
+Am Farnstrauch,Süd
+In der Kaverne,Rauf
+Im Schacht,Rauf
+In der Kardinalsgruft,Lösche Kerze
+,Dani folge mir
+,
+,Lese das Pergament Abschnitt 5
+,Süd
+Im Gewölbekeller,Süd
+Westaufgang / Keller,Rauf
+Am Westturm,Ost
+Am Hauptportal,Ost
+Am Ostturm,Öffne Tür
+,Betrete Beichtstuhl
+Im Beichtstuhl des Heiligen Hesekiel,Untersuche Fach
+,Wische Staubschicht
+,Nehme Blatt
+,Untersuche Blatt
+,Untersuche Seitennummer
+,Nord
+Am Ostturm,Runter
+Ostaufgang / Keller,Nord
+In der neuen Krypta,Untersuche Särge
+,Öffne Sarg von Harfner
+,Untersuche Holzbein
+,Nehme Testament
+,Lese Testament Seite 157
+,Lege Testament
+,Süd
+Ostaufgang / Keller,Rauf
+Am Ostturm,Betrete Beichtstuhl
+Im Beichtstuhl des Heiligen Hesekiel,Ziehe Bonifatius und Andreas und Lukas
+,Zerstöre Namen
+,Nord
+Am Ostturm,Warte
+,Nehme Lexikon
+,Nehme Schraubenschlüssel
+,Lege Blatt
+,Jasper folge mir
+,West
+Am Hauptportal,Nord
+Kirchenschiff / Mitte,Untersuche Gebetbänke
+,Klappe Sitz 200 auf
+,Nehme Pergament
+,
+,Lese das Pergament Abschnitt 1
+,Nord
+Vor dem Altar,West
+Am Westportal,Nord
+Westtreppe,Runter
+Hauptaufgang / Keller,Süd
+Im Kellergang,Süd
+Südende des Kellergangs,Untersuche Mauersteine
+,Untersuche Felsquader
+,Untersuche Furchen
+,Bewege Felsquader mit Schraubenschlüssel
+,Untersuche Hohlraum
+,Untersuche Kratzer
+,Nehme Zettel
+,Lese Zettel
+,Lege Zettel
+,Nord
+Im Kellergang,Nord
+Hauptaufgang / Keller,Rauf
+Westtreppe,Rauf
+Westtreppe / Chor,Nord
+Auf der Orgelempore,Ost
+Osttreppe / Chor,Süd
+An der Stiege,Rauf
+Auf der Stiege,Zerstöre Kästchen mit Schraubenschlüssel
+,Nehme Eisenschlüssel
+,Rauf
+An der Tür zum Glockenturm,Nord
+Im Glockenturm / Ostseite,Schließe Tür mit Eisenschlüssel
+,West
+Unter dem Glockengeläut,West
+Glockenturm / Westseite,Untersuche Sofa
+,Untersuche Ritzen
+,Nehme Monokel
+,Schiebe Sofa nach Osten
+Unter dem Glockengeläut,Rauf
+Im Geläut,Rauf
+In der großen Glocke,Runter
+Im Geläut,Untersuche Seil
+,Löse Seil
+,Ja
+,Rauf
+In der großen Glocke,Untersuche Bolzen
+,Löse Bolzen mit Schraubenschlüssel
+,Runter
+Im Geläut,Runter
+,Ja
+Unter dem Glockengeläut,Nehme Seil
+,Ost
+Im Glockenturm / Ostseite,Jasper folge mir
+,Öffne Tür mit Eisenschlüssel
+,Lege Eisenschlüssel
+,
+,Lese das Pergament Abschnitt 2
+,Süd
+An der Tür zum Glockenturm,Runter
+Auf der Stiege,Runter
+An der Stiege,Nord
+Osttreppe / Chor,Runter
+Osttreppe,Nord
+In der Sakristei,Lege Lexikon
+,Nehme Bibel
+,Öffne Bibel auf Seite 1426
+,Untersuche Bibel
+,West
+Westtreppe,Süd
+Am Westportal,Entzünde Kerze
+,Ost
+Vor dem Altar,Ost
+Am Ostportal,Nehme Plüschkordel
+,Rauf
+Auf der Kanzel,Lege Bibel auf Ablage
+,Untersuche Kanzeldach
+,Untersuche Umrandungen
+,Befestige Plüschkordel an Schlaufe
+,Untersuche Malereien
+,Untersuche Jahreszahl
+,Rauf
+Auf dem Kanzeldach,Jasper öffne die Bibel auf Seite 1411
+,Warte
+,Warte
+,Untersuche Löwenkopf
+,Ziehe Horn
+,Rauf
+Im Kapitell,Rauf
+In der Kammer der Schatten,Untersuche Steintafel
+,Gehe Thal
+In der Kammer der Sonne,Gehe Untergang
+In der Kammer des Himmels,Gehe Feuer
+In der Kammer des Teufels,Gehe Werck
+In der Kammer der Nacht,Gehe Vogel
+In der Dämonenkammer,Gehe Lied
+In der Hexenkammer,Gehe Kulth
+In der Kammer des Bocks,Gehe Berg
+In der Kammer des Vulkans,Gehe Schloth
+In der Höllenkammer,Gehe Hundt
+In der Pestkammer,Gehe Geruch
+In der Kammer des Schicksals,Gehe Schlag
+In der Kammer des Morgens,Gehe Rot
+In der Satanskammer,Gehe Geburt
+In der Kammer Kals,Untersuche Stern
+,Untersuche Wiege
+,Ja
+,Untersuche Stirn
+,Verschiebe Wiege
+,Gehe Geburt
+In der Satanskammer,Gehe Rot
+In der Kammer des Morgens,Gehe Schlag
+In der Kammer des Schicksals,Gehe Geruch
+In der Pestkammer,Gehe Hundt
+In der Höllenkammer,Gehe Schloth
+In der Kammer des Vulkans,Gehe Berg
+In der Kammer des Bocks,Gehe Kulth
+In der Hexenkammer,Gehe Lied
+In der Dämonenkammer,Gehe Vogel
+In der Kammer der Nacht,Gehe Werck
+In der Kammer des Teufels,Gehe Feuer
+In der Kammer des Himmels,Gehe Untergang
+In der Kammer der Sonne,Gehe Thal
+In der Kammer der Schatten,Runter
+Im Kapitell,Runter
+Auf dem Kanzeldach,Lösche Kerze
+,Jasper schließe die Bibel
+,Warte
+,Runter
+Auf der Kanzel,Nehme Bibel
+,Jasper folge mir
+,
+,Lese das Pergament Abschnitt 3
+,Runter
+Am Ostportal,Nord
+Osttreppe,Nord
+In der Sakristei,Lege Bibel
+,Nehme Aberglaube
+,Lese Aberglaube Kapitel 4
+,Lege Aberglaube
+,Untersuche Kirchenlieder
+,Nehme Geheimschriften
+,Lese Geheimschriften Kapitel 6
+,Lege Geheimschriften
+,Nehme Kirchenlieder
+,West
+Westtreppe,Süd
+Am Westportal,Ost
+Vor dem Altar,Nord
+Am Altar,Untersuche Blumenvase
+,Nehme Blumenvase
+,Süd
+Vor dem Altar,West
+Am Westportal,Entzünde Kerze
+,Lege Kerze in Blumenvase
+,Öffne Tür
+,Betrete Beichtstuhl
+Im Beichtstuhl des Heiligen Bonifatius,Drehe Kirchenlieder
+,Untersuche Kirchenlieder
+,Lese Geheimbibliothek Kapitel 1
+,Lese Geheimbibliothek Kapitel 2
+,Lese Geheimbibliothek Kapitel 3
+,Lese Geheimbibliothek Kapitel 4
+,Lese Geheimbibliothek Kapitel 5
+,Lese Geheimbibliothek Kapitel 6
+,Lege Blumenvase
+,Nehme Kerze
+,Lösche Kerze
+,Ost
+Am Westportal,Süd
+Unter der Westempore,Süd
+Am Westturm,Rauf
+Westturm / Hauptempore,Rauf
+Westbalustrade,Ost
+Mittelbalustrade,Ost
+Ostbalustrade,Untersuche Bild
+,Drücke auf die Kacheln 4;2;7
+,Süd
+In der Geheimbibliothek,Untersuche Figur
+,Untersuche Jade
+,Nord
+Ostbalustrade,West
+Mittelbalustrade,West
+Westbalustrade,Runter
+Westturm / Hauptempore,Runter
+Am Westturm,Nord
+Unter der Westempore,Nord
+Am Westportal,Nord
+Westtreppe,Nord
+In der Sakristei,Lege Kirchenlieder
+,Nehme Lexikon
+,Suche im Lexikon nach Aspisjade
+,Nehme Glasscherben
+,West
+Westtreppe,Süd
+Am Westportal,Süd
+Unter der Westempore,Süd
+Am Westturm,Rauf
+Westturm / Hauptempore,Rauf
+Westbalustrade,Ost
+Mittelbalustrade,Ost
+Ostbalustrade,Süd
+In der Geheimbibliothek,Untersuche Regale
+,Nehme Buch 1
+,Lese Buch
+,Suche im Buch nach Shankira
+,Lege Buch
+,Nehme Buch 399
+,Lese Buch
+,Lege Buch
+,Nehme Buch 2001
+,Suche im Buch nach Xeng
+,Lege Buch
+,Nehme Buch 2756
+,Lese Buch
+,Lege Buch
+,Nehme Buch 1001
+,Suche im Buch nach Phogos
+,Lege Buch
+,Nehme Buch 1903
+,Lese Buch
+,Lege Buch
+,Nehme Buch 3001
+,Suche im Buch nach Ujadhara
+,Lege Buch
+,Nehme Buch 3589
+,Lese Buch
+,Lege Buch
+,Berühre Figur mit Glasscherbe
+,Lege Glasscherben
+,Nord
+Ostbalustrade,West
+Mittelbalustrade,West
+Westbalustrade,Runter
+Westturm / Hauptempore,Runter
+Am Westturm,Nord
+Unter der Westempore,Nord
+Am Westportal,Entzünde Kerze
+,Süd
+Unter der Westempore,Süd
+Am Westturm,Rauf
+Westturm / Hauptempore,Rauf
+Westbalustrade,Ost
+Mittelbalustrade,Ost
+Ostbalustrade,Süd
+In der Geheimbibliothek,Entzünde Bibliothek mit Kerze
+,Nord
+Ostbalustrade,Lösche Kerze
+,
+,Lese das Pergament Abschnitt 4
+,West
+Mittelbalustrade,West
+Westbalustrade,Runter
+Westturm / Hauptempore,Runter
+Am Westturm,Ost
+Am Hauptportal,Ost
+Am Ostturm,Nord
+Unter der Ostempore,Nord
+Am Ostportal,Nord
+Osttreppe,Rauf
+Osttreppe / Chor,Süd
+An der Stiege,Rauf
+Auf der Stiege,Rauf
+An der Tür zum Glockenturm,Nord
+Im Glockenturm / Ostseite,Nehme Eisenschlüssel
+,Rauf
+Am Ende der Treppe,Öffne Tür mit Eisenschlüssel
+,Ost
+In der Küsterkammer,Untersuche Schrank
+,Nehme Weihrauchschwenker
+,Öffne Deckel
+,Untersuche Deckel
+,Nehme Weihrauch
+,Lege Weihrauch in Weihrauchschwenker
+,West
+Am Ende der Treppe,Runter
+Im Glockenturm / Ostseite,Lege Eisenschlüssel
+,Süd
+An der Tür zum Glockenturm,Runter
+Auf der Stiege,Runter
+An der Stiege,Nord
+Osttreppe / Chor,Runter
+Osttreppe,Süd
+Am Ostportal,West
+Vor dem Altar,West
+Am Westportal,Entzünde Kerze
+,Süd
+Unter der Westempore,Süd
+Am Westturm,Runter
+Westaufgang / Keller,Nord
+Im Gewölbekeller,Untersuche Tonnengewölbe
+,Untersuche Stützwerk
+,Untersuche Risse
+,Untersuche Dreck
+,Nehme Papyrus
+,Lese Papyrus
+,Lege Papyrus
+,Untersuche Boden
+,Nehme Sand
+,Nehme Sand
+,Untersuche Löchlein
+,Entzünde Weihrauch mit Kerze
+,Lösche Kerze
+,Nehme Sand
+,Nehme Sand
+,Werfe Weihrauchschwenker in Spalt
+,Lege Sand
+,
+,Lese das Pergament Abschnitt 5
+,Süd
+Westaufgang / Keller,Rauf
+Am Westturm,Nord
+Unter der Westempore,Nord
+Am Westportal,Nord
+Westtreppe,Rauf
+Westtreppe / Chor,Ost
+Chor,Untersuche Gemälde
+,Untersuche Arche Noah
+,Untersuche Löwe
+,Suche im Lexikon nach steinerner Löwe
+,Nehme Gemälde
+,Untersuche Leinwand
+,Untersuche Leder
+,Untersuche Rückseite
+,Nehme Leder
+,Ost
+Osttreppe / Chor,Süd
+An der Stiege,Rauf
+Auf der Stiege,Rauf
+An der Tür zum Glockenturm,Nord
+Im Glockenturm / Ostseite,Jasper übersetze die Hieroglyphen
+,Ja
+,Ja
+,Süd
+An der Tür zum Glockenturm,Runter
+Auf der Stiege,Runter
+An der Stiege,Nord
+Osttreppe / Chor,Runter
+Osttreppe,Süd
+Am Ostportal,West
+Vor dem Altar,West
+Am Westportal,Entzünde Kerze
+,Nord
+Westtreppe,Runter
+Hauptaufgang / Keller,Ost
+Im Kohlekeller,Nord
+Im Heizungskeller,Untersuche Heizofen
+,Öffne Ofenklappe
+,Untersuche Heizofen
+,Nehme Kerkerschlüssel
+,Süd
+Im Kohlekeller,Ost
+Am Ende des Ganges,Öffne Gittertür mit Kerkerschlüssel
+,Lege Kerkerschlüssel
+,Nord
+Im Verlies,Untersuche Ziegelsteine
+,Untersuche Bilder
+,Drücke Löwe und Krone
+,Ost
+Im Geheimkeller,Untersuche Käfig
+,Untersuche Löwe
+,Öffne Käfig
+,Wickele Löwe in Leder
+,Nehme Löwe
+,West
+Im Verlies,Jasper folge mir
+,Süd
+Am Ende des Ganges,West
+Im Kohlekeller,West
+Hauptaufgang / Keller,Lösche Kerze
+,Rauf
+Westtreppe,Süd
+Am Westportal,Ost
+Vor dem Altar,Nord
+Am Altar,Werfe Löwe auf Boden
+,Warte
+,Daniel folge mir
+,Süd
+Vor dem Altar,Ost
+Am Ostportal,Nord
+Osttreppe,Rauf
+Osttreppe / Chor,Rauf
+Auf der Orgelempore,Rauf
+Auf der Orgel,Schraube Pfeife 113
+,Runter
+Auf der Orgelempore,Nehme Pergament
+,Daniel folge mir
+,
+,Lese das Pergament Abschnitt 1
+,Suche im Lexikon nach Moro
+,Ost
+Osttreppe / Chor,Runter
+Osttreppe,Nord
+In der Sakristei,Öffne Schrank
+,Nehme Gesangsbücher
+,West
+Westtreppe,Süd
+Am Westportal,Entzünde Kerze
+,Süd
+Unter der Westempore,Süd
+Am Westturm,Rauf
+Westturm / Hauptempore,Rauf
+Westbalustrade,Nord
+Am Ende der Westbalustrade,Untersuche Falltür
+,Untersuche Buchstaben
+,Lege Gesangsbücher
+,Klettere auf Gesangsbücher
+,Öffne Falltür
+,Rauf
+In einer kleinen Kammer 2,Untersuche Holztür
+,Untersuche Schlüsselloch
+,Nehme Dietrich
+,Untersuche Dietrich
+,Runter
+,Lösche Kerze
+,Süd
+Westbalustrade,Runter
+Westturm / Hauptempore,Runter
+Am Westturm,Nord
+Unter der Westempore,Nord
+Am Westportal,Öle Dietrich
+,Entzünde Kerze
+,Süd
+Unter der Westempore,Süd
+Am Westturm,Rauf
+Westturm / Hauptempore,Rauf
+Westbalustrade,Nord
+Am Ende der Westbalustrade,Klettere auf Gesangsbücher
+,Rauf
+In einer kleinen Kammer 2,Öffne Holztür mit Dietrich
+,Ost
+In einem schmalen Gang,Rauf
+An der Turmuhr,Untersuche Mechanismus
+,Untersuche Zahnräder
+,Untersuche Mechanik
+,Untersuche Antriebsstangen
+,Untersuche Metallstange
+,Untersuche Mauerspalt
+,Blicke durch Mauerspalt
+,Untersuche Unruh
+,Untersuche Gefäß
+,Untersuche Schlegel
+,Runter
+In einem schmalen Gang,West
+In einer kleinen Kammer 2,Schließe Holztür mit Dietrich
+,Runter
+Am Ende der Westbalustrade,Süd
+Westbalustrade,Runter
+Westturm / Hauptempore,Runter
+Am Westturm,Ost
+Am Hauptportal,Ost
+Am Ostturm,Nord
+Unter der Ostempore,Nord
+Am Ostportal,Nord
+Osttreppe,Rauf
+Osttreppe / Chor,Süd
+An der Stiege,Rauf
+Auf der Stiege,Rauf
+An der Tür zum Glockenturm,Nord
+Im Glockenturm / Ostseite,West
+Unter dem Glockengeläut,Rauf
+Im Geläut,Untersuche Metallstange
+,Untersuche Haken
+,Hänge Metallstange an Haken
+,Runter
+,Ja
+Unter dem Glockengeläut,Ost
+Im Glockenturm / Ostseite,Daniel folge mir
+,Süd
+An der Tür zum Glockenturm,Runter
+Auf der Stiege,Runter
+An der Stiege,Nord
+Osttreppe / Chor,Runter
+Osttreppe,Süd
+Am Ostportal,Süd
+Unter der Ostempore,Süd
+Am Ostturm,West
+Am Hauptportal,West
+Am Westturm,Rauf
+Westturm / Hauptempore,Rauf
+Westbalustrade,Nord
+Am Ende der Westbalustrade,Klettere auf Gesangsbücher
+,Rauf
+In einer kleinen Kammer 2,Öffne Holztür mit Dietrich
+,Lege Dietrich
+,Ost
+In einem schmalen Gang,Rauf
+An der Turmuhr,Klettere auf Metallstange
+,Nehme Schlegel
+,Lege Schlegel
+,
+,Lese das Pergament Abschnitt 2
+,Runter
+,Runter
+In einem schmalen Gang,West
+In einer kleinen Kammer 2,Runter
+Am Ende der Westbalustrade,Lösche Kerze
+,Süd
+Westbalustrade,Runter
+Westturm / Hauptempore,Runter
+Am Westturm,Nord
+Unter der Westempore,Nord
+Am Westportal,Entzünde Kerze
+,Nord
+Westtreppe,Runter
+Hauptaufgang / Keller,Süd
+Im Kellergang,Ost
+Im Brunnenkeller,Befestige Seil an Gestell
+,Entzünde Petroleumfunzel mit Kerze
+,Lösche Kerze
+,Nehme Steinchen
+,Werfe Steinchen in Brunnen
+,Klettere in Brunnen
+Am Grund des Brunnens,Untersuche Mauer
+,Untersuche Spalt
+,Verbreitere Spalt
+,Süd
+Im Gang,Süd
+An einer Abzweigung,Ost
+Ganggabelung,Ost
+Gangabzweigung,Runter
+Am steinernen Tor,Untersuche Tor
+,Untersuche Basrelief
+,Untersuche Maul
+,Untersuche Vorsprung
+,Rauf
+Gangabzweigung,Rauf
+Am Ende des Ganges 2,Untersuche Schacht
+,Klettere in Schacht
+,Klettere in Schacht
+Tunnelverzweigung,Entzünde Kerze mit Petroleumfunzel
+,Lege Petroleumfunzel
+,Rauf
+Am Ende des Ganges 2,Runter
+Gangabzweigung,Runter
+Am steinernen Tor,Klettere ins Maul
+,Drücke Knopf
+In der Felsenhalle,Untersuche Steinplatten
+,Untersuche Statue
+,Ost
+Vor der Statue,Untersuche Wassergraben
+,Untersuche Senke
+,Süd
+An der südlichen Wand,Untersuche Wassergraben
+,Untersuche Fleck
+,Warte (mehrmals; bis Monster erscheint und wieder verschwindet)
+,Schwimme unter Wasser
+,Verschiebe Metallplatte
+,Greife Metallstange
+Tunnelverzweigung,Nehme Petroleumfunzel
+,Rauf
+Am Ende des Ganges 2,Runter
+Gangabzweigung,West
+Ganggabelung,West
+An einer Abzweigung,Nord
+Im Gang,Nord
+Am Grund des Brunnens,Rauf
+,Verschließe Spalt mit Steinen
+,Nehme Lehm
+,Verschließe Ritzen mit Lehm
+,Warte
+,Warte
+,Warte
+Im Brunnen,Rauf
+Im Brunnenkeller,
+,Ja
+,Daniel folge mir
+,Lese das Pergament Abschnitt 3
+,West
+Im Kellergang,Nord
+Hauptaufgang / Keller,Rauf
+Westtreppe,Rauf
+Westtreppe / Chor,Ost
+Chor,Ost
+Osttreppe / Chor,Rauf
+Auf der Orgelempore,Untersuche Kirchenorgel
+,Untersuche Register
+,Untersuche Zugriegel
+,Ziehe Zugriegel 9
+,Untersuche Kirchenorgel
+,Untersuche Klappe
+,Untersuche Geheimfach
+,Nehme Notenbuch
+,Untersuche Notenbuch
+,Lese Notenbuch
+,Öffne im Notenbuch den Dämonengesang
+,Spiele Dämonengesang
+,Ja
+,3
+,Ligatur
+,Spiele Dämonengesang
+,Ost
+Osttreppe / Chor,Runter
+Osttreppe,Süd
+Am Ostportal,West
+Vor dem Altar,West
+Am Westportal,Entzünde Kerze
+,Nord
+Westtreppe,Runter
+Hauptaufgang / Keller,Nord
+Im Lagerraum,Daniel hilf mir die Bänke zu schleppen
+,Nord
+Hinter den Kirchenbänken,Untersuche Maschine
+,Daniel trete die Pedale
+,Süd
+Im Lagerraum,Süd
+Hauptaufgang / Keller,Rauf
+Westtreppe,Lösche Kerze
+,Rauf
+Westtreppe / Chor,Ost
+Chor,Ost
+Osttreppe / Chor,Rauf
+Auf der Orgelempore,Spiele Dämonengesang
+,Rufe Daniel
+,Daniel folge mir
+,
+,Lese das Pergament Abschnitt 4
+,West
+Westtreppe / Chor,Runter
+Westtreppe,Süd
+Am Westportal,Entzünde Kerze
+,Nord
+Westtreppe,Rauf
+Westtreppe / Chor,Ost
+Chor,Ost
+Osttreppe / Chor,Süd
+An der Stiege,Rauf
+Auf der Stiege,Rauf
+An der Tür zum Glockenturm,Nord
+Im Glockenturm / Ostseite,West
+Unter dem Glockengeläut,West
+Glockenturm / Westseite,Rauf
+Im Astrolabium,Untersuche Gestell
+,Untersuche Reflektor
+,Lege Kerze in Kerzenhalter
+,Lege Monokel in Linsenfassung
+,Öffne Schublade
+,Untersuche Schublade
+,Nehme Geheimwelten
+,Lese Geheimwelten auf Seite 208
+,Richte Lichtpunkt auf Quadrant 141
+Auf der Hochebene,Warte (mehrmals; bis Blitzeinschlag im Norden)
+,Nord
+Am Lavasee,Ost
+An der Felswand 2,Ost
+Nordseite der Hochebene,Ost
+Am Gletscherausläufer,Untersuche Felsen
+,Nehme Eiskristall
+,Süd
+An der Schlucht 2,Süd
+Am versteinerten Wald,West
+Auf der Felsterasse,Untersuche Baum
+,Untersuche Hohlraum
+,Untersuche Ast
+,Nehme Totenschädel
+,West
+Am Felsabsatz,West
+Am Geröllfeld,Untersuche Geröll
+,Nehme Geröllbrocken
+,Nehme Stoffetzen
+,Ost
+Am Felsabsatz,Warte (mehrmals; bis Blitzeinschlag im Norden)
+,Nord
+Vor dem Hügel,Nord
+,Nord
+An der Felswand 2,Nehme Brocken
+,Ost
+Nordseite der Hochebene,Ost
+Am Gletscherausläufer,Süd
+An der Schlucht 2,West
+Auf dem Hügel,Lege Brocken
+,Ost
+An der Schlucht 2,Süd
+Am versteinerten Wald,West
+Auf der Felsterasse,West
+Am Felsabsatz,Nord
+Vor dem Hügel,Ost
+Am Feuer,Ost
+,Ja
+Bei der Truhe,Öffne Truhe
+,Ja
+,Greife in Truhe
+,Greife in Truhe
+,Zerstöre Stern
+Im Astrolabium,Nehme Kerze
+,Lösche Kerze
+,Nehme Pergament
+,Nehme Schraubenschlüssel
+,Nehme Petroleumfunzel
+,Nehme Lexikon
+,
+,Lese das Pergament Abschnitt 5
+,Runter
+Glockenturm / Westseite,Ost
+Unter dem Glockengeläut,Ost
+Im Glockenturm / Ostseite,Daniel folge mir
+,Süd
+An der Tür zum Glockenturm,Runter
+Auf der Stiege,Runter
+An der Stiege,Nord
+Osttreppe / Chor,Runter
+Osttreppe,Nord
+In der Sakristei,Untersuche Gemälde
+,Untersuche Maybrenner
+,Untersuche Molsner
+,Untersuche Treblos
+,Untersuche Bibelband
+,Untersuche Altar
+,Untersuche Figürchen
+,Untersuche Jesuskreuz
+,West
+Westtreppe,Süd
+Am Westportal,Entzünde Kerze
+,Ost
+Vor dem Altar,Nord
+Am Altar,Untersuche Altar
+,Untersuche Figürchen
+,Bewege Figürchen 60
+,Runter
+In der Zisterne,Untersuche Wasserbecken
+,Untersuche Bassin
+,Untersuche Mauer
+,Untersuche Mäuerchen
+,Untersuche Steine
+,Nehme Basaltstein
+,Lege Basaltstein auf Mäuerchen
+,Rauf
+,
+Am Altar,Süd
+Vor dem Altar,West
+Am Westportal,Süd
+Unter der Westempore,Süd
+,Süd
+Am Westturm,Rauf
+Westturm / Hauptempore,Rauf
+Westbalustrade,Nord
+Am Ende der Westbalustrade,Warte (bis Sonntag 18:00 Uhr)
+,Klettere auf Gesangsbücher
+,Rauf
+In einer kleinen Kammer 2,Warte (bis Mitternacht)
+,Warte
+,Warte
+Am Hauptportal,West
+Am Westturm,Rauf
+Westturm / Hauptempore,Rauf
+Westbalustrade,Ost
+Mittelbalustrade,Ost
+Ostbalustrade,Nord
+An der kleinen Treppe,Springe rauf
+Am Ende der Ostbalustrade,Warte
+,Süd
+An der kleinen Treppe,Springe runter
+Ostbalustrade,West
+Mittelbalustrade,West
+Westbalustrade,Runter
+Westturm / Hauptempore,Runter
+Am Westturm,Ost
+Am Hauptportal,Süd
+,Süd
+Vor der Kathedrale,Untersuche Litfaßsäule

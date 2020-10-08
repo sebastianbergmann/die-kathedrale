@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="die-kathedrale" default="render">
+    <target name="render" depends="clean,render-complete-map,render-walkthrough-map">
+        <mkdir dir="${basedir}/build"/>
+    </target>
+
+    <target name="render-complete-map" depends="prepare">
+        <exec executable="neato" failonerror="true" taskname="neato">
+            <arg value="-Tpdf"/>
+            <arg value="-o"/>
+            <arg path="${basedir}/build/map_complete.pdf"/>
+            <arg path="${basedir}/map.dot"/>
+        </exec>
+
+        <exec executable="neato" failonerror="true" taskname="neato">
+            <arg value="-Tpng"/>
+            <arg value="-o"/>
+            <arg path="${basedir}/build/map_complete.png"/>
+            <arg path="${basedir}/map.dot"/>
+        </exec>
+
+        <exec executable="neato" failonerror="true" taskname="neato">
+            <arg value="-Tsvg"/>
+            <arg value="-o"/>
+            <arg path="${basedir}/build/map_complete.svg"/>
+            <arg path="${basedir}/map.dot"/>
+        </exec>
+
+        <exec executable="dot" failonerror="true" taskname="dot">
+            <arg value="-Tpdf"/>
+            <arg value="-o"/>
+            <arg path="${basedir}/build/map_complete_dot.pdf"/>
+            <arg path="${basedir}/map.dot"/>
+        </exec>
+
+        <exec executable="dot" failonerror="true" taskname="dot">
+            <arg value="-Tpng"/>
+            <arg value="-o"/>
+            <arg path="${basedir}/build/map_complete_dot.png"/>
+            <arg path="${basedir}/map.dot"/>
+        </exec>
+
+        <exec executable="dot" failonerror="true" taskname="dot">
+            <arg value="-Tsvg"/>
+            <arg value="-o"/>
+            <arg path="${basedir}/build/map_complete_dot.svg"/>
+            <arg path="${basedir}/map.dot"/>
+        </exec>
+    </target>
+
+    <target name="render-walkthrough-map" depends="prepare">
+        <mkdir dir="${basedir}/tmp"/>
+
+        <exec executable="${basedir}/render.php" failonerror="true"/>
+
+        <delete dir="${basedir}/tmp"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="${basedir}/build"/>
+        <delete dir="${basedir}/tmp"/>
+    </target>
+
+    <target name="prepare">
+        <mkdir dir="${basedir}/build"/>
+    </target>
+</project>

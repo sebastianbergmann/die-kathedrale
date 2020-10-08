@@ -1,0 +1,695 @@
+strict digraph G {
+    graph [fontsize=30 labelloc="t" label="" splines=true overlap=scale];
+    ratio = auto;
+
+    subgraph cluster_draussen {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white,shape=rectangle];
+
+        vor_der_kathedrale [label="Vor der Kathedrale"];
+    }
+
+    subgraph cluster_zisterne {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white,shape=rectangle];
+
+        in_der_zisterne [label="In der Zisterne"];
+        im_wasserbecken [label="Im Wasserbecken"];
+        dunkelheit [label="Dunkelheit"];
+    }
+
+    subgraph cluster_fremde_welt {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white,shape=rectangle];
+
+        auf_der_hochebene [label="Auf der Hochebene"];
+        am_lavasee [label="Am Lavasee"];
+        an_der_felswand_2 [label="An der Felswand"];
+        nordseite_der_hochebene [label="Nordseite der Hochebene"];
+        am_gletscherauslaeufer [label="Am Gletscherausläufer"];
+        an_der_schlucht_2 [label="An der Schlucht"];
+        am_versteinerten_wald [label="Am versteinerten Wald"];
+        auf_der_felsterasse [label="Auf der Felsterasse"];
+        am_felsabsatz [label="Am Felsabsatz"];
+        am_geroellfeld [label="Am Geröllfeld"];
+        vor_dem_huegel [label="Vor dem Hügel"];
+        auf_dem_huegel [label="Auf dem Hügel"];
+        am_feuer [label="Am Feuer"];
+        bei_der_truhe [label="Bei der Truhe"];
+    }
+
+    subgraph cluster_keller_nordwest {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white,shape=rectangle];
+
+        hauptaufgang_keller [label="Hauptaufgang / Keller"];
+        im_kellergang [label="Im Kellergang"];
+        suedende_des_kellergangs [label="Südende des Kellergangs"];
+        im_kohlekeller [label="Im Kohlekeller"];
+        im_heizungskeller [label="Im Heizungskeller"];
+        am_ende_des_ganges [label="Am Ende des Ganges"];
+        im_verlies [label="Im Verlies"];
+        im_geheimkeller [label="Im Geheimkeller"];
+        im_brunnenkeller [label="Im Brunnenkeller"];
+        im_lagerraum [label="Im Lagerraum"];
+        hinter_den_kirchenbaenken [label="Hinter den Kirchenbänken"];
+    }
+
+    subgraph cluster_brunnen {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white,shape=rectangle];
+
+        am_grund_des_brunnens [label="Am Grund des Brunnens"];
+        im_gang [label="Im Gang"];
+        an_einer_abzweigung [label="An einer Abzweigung"];
+        ganggabelung [label="Ganggabelung"];
+        gangabzweigung [label="Gangabzweigung"];
+        am_steinernen_tor [label="Am steinernen Tor"];
+        am_ende_des_ganges_2 [label="Am Ende des Ganges"];
+        tunnelverzweigung [label="Tunnelverzweigung"];
+        in_der_felsenhalle [label="In der Felsenhalle"];
+        vor_der_statue [label="Vor der Statue"];
+        an_der_suedlichen_wand [label="An der südlichen Wand"];
+        im_brunnen [label="Im Brunnen"];
+    }
+
+    subgraph cluster_keller_suedwest {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white,shape=rectangle];
+
+        im_gewoelbekeller [label="Im Gewölbekeller"];
+        in_einem_kellerraum [label="In einem Kellerraum"];
+        westaufgang_keller [label="Westaufgang / Keller"];
+        in_der_kardinalsgruft [label="In der Kardinalsgruft"];
+        im_geheimkeller_2 [label="Im Geheimkeller"];
+    }
+
+    subgraph cluster_kaverne {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white,shape=rectangle];
+
+        in_der_kardinalsgruft [label="In der Kardinalsgruft"];
+        im_schacht [label="Im Schacht"];
+        in_der_kaverne [label="In der Kaverne"];
+        am_farnstrauch [label="Am Farnstrauch"];
+        am_tuempel [label="Am Tümpel"];
+        am_korallenbaum [label="Am Korallenbaum"];
+        auf_dem_moosteppich [label="Auf dem Moosteppich"];
+        am_sumpf [label="Am Sumpf"];
+        an_der_schlucht [label="An der Schlucht"];
+        im_unterholz [label="Im Unterholz"];
+        am_schachtelhalmwald [label="Am Schachtelhalmwald"];
+        an_der_felswand [label="An der Felswand"];
+        in_der_felswand [label="In der Felswand"];
+        in_zehn_metern_hoehe [label="In zehn Metern Höhe"];
+        in_zwanzig_metern_hoehe [label="In zwanzig Metern Höhe"];
+    }
+
+    subgraph cluster_keller_suedost {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white,shape=rectangle];
+
+        ostaufgang_keller [label="Ostaufgang / Keller"];
+        werkstatt [label="Werkstatt"];
+        in_der_neuen_krypta [label="In der neuen Krypta"];
+        am_ende_der_neuen_krypta [label="Am Ende der neuen Krypta"];
+        in_der_kleinen_kammer [label="In der kleinen Kammer"];
+        in_der_grabkammer [label="In der Grabkammer"];
+    }
+
+    subgraph cluster_chor {
+	    style=filled;
+	    color=lightgrey;
+	    node [style=filled,color=white,shape=rectangle];
+
+        chor [label="Chor"];
+        westtreppe_chor [label="Westtreppe / Chor"];
+        auf_der_orgelempore [label="Auf der Orgelempore"];
+        osttreppe_chor [label="Osttreppe / Chor"];
+        an_der_stiege [label="An der Stiege"];
+        auf_der_orgel [label="Auf der Orgel"];
+    }
+
+    subgraph cluster_glockenturm {
+	    style=filled;
+	    color=lightgrey;
+	    node [style=filled,color=white,shape=rectangle];
+
+        auf_der_stiege [label="Auf der Stiege"];
+        an_der_tuer_zum_glockenturm [label="An der Tür zum Glockenturm"];
+        im_glockenturm_ostseite [label="Im Glockenturm / Ostseite"];
+        unter_dem_glockengelaeut [label="Unter dem Glockengeläut"];
+        glockenturm_westseite [label="Glockenturm / Westseite"];
+        im_gelaeut [label="Im Geläut"];
+        in_der_grossen_glocke [label="In der großen Glocke"];
+        am_ende_der_treppe [label="Am Ende der Treppe"];
+        in_der_kuesterkammer [label="In der Küsterkammer"];
+        im_astrolabium [label="Im Astrolabium"];
+    }
+
+    subgraph cluster_balustrade {
+	    style=filled;
+	    color=lightgrey;
+	    node [style=filled,color=white,shape=rectangle];
+
+        westbalustrade [label="Westbalustrade"];
+        mittelbalustrade [label="Mittelbalustrade"];
+        ostbalustrade [label="Ostbalustrade"];
+        an_der_kleinen_treppe [label="An der kleinen Treppe"];
+        am_ende_der_ostbalustrade [label="Am Ende der Ostbalustrade"];
+        am_ende_der_westbalustrade [label="Am Ende der Westbalustrade"];
+        in_der_steinfratze [label="In der Steinfratze"];
+        in_der_geheimbibliothek [label="In der Geheimbibliothek"];
+    }
+
+    subgraph cluster_turmuhr {
+	    style=filled;
+	    color=lightgrey;
+	    node [style=filled,color=white,shape=rectangle];
+
+        in_einer_kleinen_kammer_2 [label="In einer kleinen Kammer"];
+        in_einem_schmalen_gang [label="In einem schmalen Gang"];
+        an_der_turmuhr [label="An der Turmuhr"];
+    }
+
+    subgraph cluster_empore {
+	    style=filled;
+	    color=lightgrey;
+	    node [style=filled,color=white,shape=rectangle];
+
+        westturm_hauptempore [label="Westturm / Hauptempore"];
+        auf_der_hauptempore [label="Auf der Hauptempore"];
+        balkon_der_hauptempore [label="Balkon der Hauptempore"];
+        in_einem_engen_tunnel [label="In einem engen Tunnel"];
+        ostturm_hauptempore [label="Ostturm / Hauptempore"];
+        ostempore [label="Ostempore"];
+        westempore [label="Westempore"];
+    }
+
+    subgraph cluster_mosaik {
+	    style=filled;
+	    color=lightgrey;
+	    node [style=filled,color=white,shape=rectangle];
+
+        auf_einem_absatz [label="Auf einem Absatz"];
+        am_ende_des_tunnels [label="Am Ende des Tunnels"];
+        in_der_nabe [label="In der Nabe"];
+    }
+
+    subgraph cluster_erdgeschoss {
+	    style=filled;
+	    color=lightgrey;
+	    node [style=filled,color=white,shape=rectangle];
+
+        am_westturm [label="Am Westturm"];
+        unter_der_westempore [label="Unter der Westempore"];
+        am_westportal [label="Am Westportal"];
+        westtreppe [label="Westtreppe"];
+        vor_dem_altar [label="Vor dem Altar"];
+        am_altar [label="Am Altar"];
+        kirchenschiff_mitte [label="Kirchenschiff / Mitte"];
+        am_hauptportal [label="Am Hauptportal"];
+        am_ostturm [label="Am Ostturm"];
+        unter_der_ostempore [label="Unter der Ostempore"];
+        am_ostportal [label="Am Ostportal"];
+        osttreppe [label="Osttreppe"];
+        in_der_sakristei [label="In der Sakristei"];
+        im_beichtstuhl_des_heiligen_hesekiel [label="Im Beichtstuhl des Heiligen Hesekiel"];
+        im_beichtstuhl_des_heiligen_bonifatius [label="Im Beichtstuhl des Heiligen Bonifatius"];
+        auf_der_kanzel [label="Auf der Kanzel"];
+        auf_dem_kanzeldach [label="Auf dem Kanzeldach"];
+    }
+
+    subgraph cluster_kapitell {
+	    style=filled;
+	    color=lightgrey;
+	    node [style=filled,color=white,shape=rectangle];
+
+        im_kapitell [label="Im Kapitell"];
+        in_der_kammer_der_schatten [label="In der Kammer der Schatten"];
+        in_der_kammer_der_sonne [label="In der Kammer der Sonne"];
+        in_der_kammer_des_himmels [label="In der Kammer des Himmels"];
+        in_der_kammer_des_teufels [label="In der Kammer des Teufels"];
+        in_der_kammer_der_nacht [label="In der Kammer der Nacht"];
+        in_der_daemonenkammer [label="In der Dämonenkammer"];
+        in_der_hexenkammer [label="In der Hexenkammer"];
+        in_der_kammer_des_bocks [label="In der Kammer des Bocks"];
+        in_der_kammer_des_vulkans [label="In der Kammer des Vulkans"];
+        in_der_hoellenkammer [label="In der Höllenkammer"];
+        in_der_pestkammer [label="In der Pestkammer"];
+        in_der_kammer_des_schicksals [label="In der Kammer des Schicksals"];
+        in_der_kammer_des_morgens [label="In der Kammer des Morgens"];
+        in_der_satanskammer [label="In der Satanskammer"];
+        in_der_kammer_kals [label="In der Kammer Kals"];
+
+        kapitell_game_over [label="Game Over" shape=star];
+    }
+
+    subgraph cluster_kammern_raetsel_4 {
+	    style=filled;
+	    color=lightgrey;
+	    node [style=filled,color=white,shape=rectangle];
+
+        auf_der_wendeltreppe [label="Auf der Wendeltreppe"];
+        in_einer_kleinen_kammer [label="In einer kleinen Kammer"];
+        in_der_zweiten_kammer [label="In der zweiten Kammer"];
+        im_tunnel [label="Im Tunnel"];
+        in_der_dritten_kammer [label="In der dritten Kammer"];
+        in_der_vierten_kammer [label="In der vierten Kammer"];
+    }
+
+    im_gewoelbekeller -> in_einem_kellerraum [label="Ost"];
+    in_einem_kellerraum -> im_gewoelbekeller [label="West"];
+
+    im_gewoelbekeller -> westaufgang_keller [label="Süd"];
+    westaufgang_keller -> im_gewoelbekeller [label="Nord"];
+    
+    westaufgang_keller -> am_westturm [label="Rauf"];
+    am_westturm -> westaufgang_keller [label="Runter"];
+
+    am_westturm -> am_hauptportal [label="Ost"];
+    am_hauptportal -> am_westturm [label="West"];
+
+    am_hauptportal -> kirchenschiff_mitte [label="Nord"];
+    kirchenschiff_mitte -> am_hauptportal [label="Süd"];
+
+    kirchenschiff_mitte -> vor_dem_altar [label="Nord"];
+    vor_dem_altar -> kirchenschiff_mitte [label="Süd"];
+
+    vor_dem_altar -> am_altar [label="Nord"];
+    am_altar -> vor_dem_altar [label="Süd"];
+
+    vor_dem_altar -> am_ostportal [label="Ost"];
+    am_ostportal -> vor_dem_altar [label="West"];
+
+    am_ostportal -> osttreppe [label="Nord"];
+    osttreppe -> am_ostportal [label="Süd"];
+
+    osttreppe -> in_der_sakristei [label="Nord"];
+    in_der_sakristei -> osttreppe [label="Ost"];
+
+    vor_dem_altar -> am_westportal [label="West"];
+    am_westportal -> vor_dem_altar [label="Ost"];
+
+    am_westportal -> unter_der_westempore [label="Süd"];
+    unter_der_westempore -> am_westportal [label="Nord"];
+
+    unter_der_westempore -> am_westturm [label="Süd"];
+    am_westturm -> unter_der_westempore [label="Nord"];
+
+    am_westturm -> westturm_hauptempore [label="Rauf"];
+    westturm_hauptempore -> am_westturm [label="Runter"];
+
+    westturm_hauptempore -> westbalustrade [label="Rauf"];
+    westbalustrade -> westturm_hauptempore [label="Runter"];
+
+    westbalustrade -> mittelbalustrade [label="Ost"];
+    mittelbalustrade -> westbalustrade [label="West"];
+
+    mittelbalustrade -> ostbalustrade [label="Ost"];
+    ostbalustrade -> mittelbalustrade [label="West"];
+
+    ostbalustrade -> an_der_kleinen_treppe [label="Nord"];
+    an_der_kleinen_treppe -> ostbalustrade [label="Süd"];
+
+    ostbalustrade -> in_der_geheimbibliothek [label="Süd"];
+    in_der_geheimbibliothek -> ostbalustrade [label="Nord"];
+
+    an_der_kleinen_treppe -> am_ende_der_ostbalustrade [label="Springe rauf"];
+
+    am_ende_der_ostbalustrade -> in_der_steinfratze [label="Nord"];
+    in_der_steinfratze -> am_ende_der_ostbalustrade [label="Süd"];
+    am_ende_der_ostbalustrade -> an_der_kleinen_treppe [label="Süd"];
+
+    westturm_hauptempore -> auf_der_hauptempore [label="Ost"];
+    auf_der_hauptempore -> westturm_hauptempore [label="West"];
+
+    auf_der_hauptempore -> balkon_der_hauptempore [label="Runter"];
+    balkon_der_hauptempore -> auf_der_hauptempore [label="Rauf"];
+
+    balkon_der_hauptempore -> in_einem_engen_tunnel [label="Süd"];
+    in_einem_engen_tunnel -> balkon_der_hauptempore [label="Nord"];
+
+    in_einem_engen_tunnel -> auf_einem_absatz [label="Rauf"];
+    auf_einem_absatz -> in_einem_engen_tunnel [label="Runter"];
+
+    auf_einem_absatz -> am_ende_des_tunnels [label="Rauf"];
+    am_ende_des_tunnels -> auf_einem_absatz [label="Runter"];
+
+    am_ende_des_tunnels -> in_der_nabe [label="Gehe durch Luke" dir=both];
+
+    am_hauptportal -> am_ostturm [label="Ost"];
+    am_ostturm -> am_hauptportal [label="West"];
+
+    am_ostturm -> unter_der_ostempore [label="Nord"];
+    unter_der_ostempore -> am_ostturm [label="Süd"];
+
+    unter_der_ostempore -> am_ostportal [label="Nord"];
+    am_ostportal -> unter_der_ostempore [label="Süd"];
+
+    am_ostturm -> ostaufgang_keller [label="Runter"];
+    ostaufgang_keller -> am_ostturm [label="Rauf"];
+
+    ostaufgang_keller -> werkstatt [label="West"];
+    werkstatt -> ostaufgang_keller [label="Ost"];
+
+    ostaufgang_keller -> in_der_neuen_krypta [label="Nord"];
+    in_der_neuen_krypta -> ostaufgang_keller [label="Süd"];
+
+    in_der_neuen_krypta -> am_ende_der_neuen_krypta [label="Nord"];
+    am_ende_der_neuen_krypta -> in_der_neuen_krypta [label="Süd"];
+
+    am_ende_der_neuen_krypta -> in_der_kleinen_kammer [label="Nord"];
+    in_der_kleinen_kammer -> am_ende_der_neuen_krypta [label="Süd"];
+
+    in_der_kleinen_kammer -> in_der_grabkammer [label="Nord"];
+
+    am_westportal -> westtreppe [label="Nord"];
+    westtreppe -> am_westportal [label="Süd"];
+
+    westtreppe -> in_der_sakristei [label="Nord"];
+    in_der_sakristei -> westtreppe [label="West"];
+
+    unter_der_westempore -> kirchenschiff_mitte [label="Ost"];
+    kirchenschiff_mitte -> unter_der_westempore [label="West"];
+
+    unter_der_ostempore -> kirchenschiff_mitte [label="West"];
+    kirchenschiff_mitte -> unter_der_ostempore [label="Ost"];
+
+    unter_der_ostempore -> auf_der_wendeltreppe [label="Rauf"];
+    auf_der_wendeltreppe -> unter_der_ostempore [label="Runter"];
+
+    auf_der_wendeltreppe -> in_einer_kleinen_kammer [label="Rauf"];
+    in_einer_kleinen_kammer -> auf_der_wendeltreppe [label="Runter"];
+
+    in_einer_kleinen_kammer -> in_der_zweiten_kammer [label="Nord"];
+    in_der_zweiten_kammer -> in_einer_kleinen_kammer [label="Süd"];
+
+    in_der_zweiten_kammer -> im_tunnel [label="Nord"];
+    im_tunnel -> in_der_zweiten_kammer [label="Süd"];
+
+    im_tunnel -> in_der_dritten_kammer [label="Nord"];
+    in_der_dritten_kammer -> im_tunnel [label="Süd"];
+
+    in_der_dritten_kammer -> in_der_vierten_kammer [label="Nord"];
+    in_der_vierten_kammer -> in_der_dritten_kammer [label="Süd"];
+
+    am_ostturm -> ostturm_hauptempore [label="Rauf"];
+    ostturm_hauptempore -> am_ostturm [label="Runter"];
+
+    ostturm_hauptempore -> ostempore [label="Nord"];
+    ostempore -> ostturm_hauptempore [label="Süd"];
+
+    westturm_hauptempore -> westempore [label="Nord"];
+    westempore -> westturm_hauptempore [label="Süd"];
+
+    im_gewoelbekeller -> in_der_kardinalsgruft [label="Nord"];
+    in_der_kardinalsgruft -> im_gewoelbekeller [label="Süd"];
+
+    in_der_kardinalsgruft -> im_schacht [label="Runter"];
+    im_schacht -> in_der_kardinalsgruft [label="Rauf"];
+
+    im_schacht -> in_der_kaverne [label="Runter"];
+    in_der_kaverne -> im_schacht [label="Rauf"];
+
+    in_der_kaverne -> am_farnstrauch [label="Nord"];
+    am_farnstrauch -> in_der_kaverne [label="Süd"];
+
+    am_farnstrauch -> am_tuempel [label="Nord"];
+    am_tuempel -> am_farnstrauch [label="Süd"];
+
+    am_tuempel -> am_korallenbaum [label="Nord"];
+    am_korallenbaum -> am_tuempel [label="Süd"];
+
+    am_korallenbaum -> auf_dem_moosteppich [label="West"];
+    auf_dem_moosteppich -> am_korallenbaum [label="Ost"];
+
+    auf_dem_moosteppich -> am_sumpf [label="Süd"];
+    am_sumpf -> auf_dem_moosteppich [label="Nord"];
+
+    am_sumpf -> im_unterholz [label="West"];
+    im_unterholz -> am_sumpf [label="Ost"];
+
+    im_unterholz -> an_der_schlucht [label="Nord"];
+    an_der_schlucht -> im_unterholz [label="Süd"];
+
+    im_unterholz -> am_schachtelhalmwald [label="Krieche nach Süden"];
+    am_schachtelhalmwald -> im_unterholz [label="Nord"];
+
+    am_schachtelhalmwald -> an_der_felswand [label="Ost"];
+    an_der_felswand -> am_schachtelhalmwald [label="West"];
+
+    an_der_felswand -> in_der_felswand [label="Rauf"];
+    in_der_felswand -> an_der_felswand [label="Runter"];
+
+    in_der_felswand -> in_zehn_metern_hoehe [label="Rauf"];
+    in_zehn_metern_hoehe -> in_der_felswand [label="Runter"];
+
+    in_zehn_metern_hoehe -> in_zwanzig_metern_hoehe [label="Rauf"];
+    in_zwanzig_metern_hoehe -> in_zehn_metern_hoehe [label="Runter"];
+
+    am_ostturm -> im_beichtstuhl_des_heiligen_hesekiel [label="Betrete Beichtstuhl"];
+    im_beichtstuhl_des_heiligen_hesekiel -> am_ostturm [label="Nord"];
+
+    am_westturm -> im_beichtstuhl_des_heiligen_bonifatius [label="Betrete Beichtstuhl"];
+    im_beichtstuhl_des_heiligen_bonifatius -> am_westturm [label="Ost"];
+
+    westtreppe -> hauptaufgang_keller [label="Runter"];
+    hauptaufgang_keller -> westtreppe [label="Rauf"];
+
+    hauptaufgang_keller -> im_kellergang [label="Süd"];
+    im_kellergang -> hauptaufgang_keller [label="Nord"];
+
+    im_kellergang -> suedende_des_kellergangs [label="Süd"];
+    suedende_des_kellergangs -> im_kellergang [label="Nord"];
+
+    osttreppe -> osttreppe_chor [label="Rauf"];
+    osttreppe_chor -> osttreppe [label="Runter"];
+
+    westtreppe -> westtreppe_chor [label="Rauf"];
+    westtreppe_chor -> westtreppe [label="Runter"];
+
+    westtreppe_chor -> auf_der_orgelempore [label="Nord"];
+
+    westtreppe_chor -> chor [label="Ost"];
+
+    auf_der_orgelempore -> osttreppe_chor [label="Ost"];
+    chor -> osttreppe_chor [label="Ost"];
+
+    osttreppe_chor -> an_der_stiege [label="Süd"];
+    an_der_stiege -> osttreppe_chor [label="Nord"];
+
+    an_der_stiege -> auf_der_stiege [label="Rauf"];
+    auf_der_stiege -> an_der_stiege [label="Runter"];
+
+    auf_der_stiege -> an_der_tuer_zum_glockenturm [label="Rauf"];
+    an_der_tuer_zum_glockenturm -> auf_der_stiege [label="Runter"];
+
+    an_der_tuer_zum_glockenturm -> im_glockenturm_ostseite [label="Nord"];
+    im_glockenturm_ostseite -> an_der_tuer_zum_glockenturm [label="Süd"];
+
+    im_glockenturm_ostseite -> unter_dem_glockengelaeut [label="West"];
+    unter_dem_glockengelaeut -> im_glockenturm_ostseite [label="Ost"];
+
+    unter_dem_glockengelaeut -> glockenturm_westseite [label="West"];
+    glockenturm_westseite -> unter_dem_glockengelaeut [label="Ost"];
+
+    unter_dem_glockengelaeut -> im_gelaeut [label="Rauf"];
+    im_gelaeut -> unter_dem_glockengelaeut [label="Runter"];
+
+    im_gelaeut -> in_der_grossen_glocke [label="Rauf"];
+    in_der_grossen_glocke -> im_gelaeut [label="Runter"];
+
+    am_ostportal -> auf_der_kanzel [label="Rauf"];
+    auf_der_kanzel -> am_ostportal [label="Runter"];
+
+    auf_der_kanzel -> auf_dem_kanzeldach [label="Rauf"];
+    auf_dem_kanzeldach -> auf_der_kanzel [label="Runter"];
+
+    auf_dem_kanzeldach -> im_kapitell [label="Rauf"];
+    im_kapitell -> auf_dem_kanzeldach [label="Runter"];
+
+    im_kapitell -> in_der_kammer_der_schatten [label="Rauf"];
+    in_der_kammer_der_schatten -> im_kapitell [label="Runter"];
+
+    in_der_kammer_der_schatten -> in_der_kammer_der_sonne [label="Gehe Thal" dir=both];
+    in_der_kammer_der_sonne -> in_der_kammer_des_himmels [label="Gehe Untergang" dir=both];
+    in_der_kammer_des_himmels -> in_der_kammer_des_teufels [label="Gehe Feuer" dir=both];
+    in_der_kammer_des_teufels -> in_der_kammer_der_nacht [label="Gehe Werck" dir=both];
+    in_der_kammer_der_nacht -> in_der_daemonenkammer [label="Gehe Vogel" dir=both];
+    in_der_daemonenkammer -> in_der_hexenkammer [label="Gehe Lied" dir=both];
+    in_der_hexenkammer -> in_der_kammer_des_bocks [label="Gehe Kulth" dir=both];
+    in_der_kammer_des_bocks -> in_der_kammer_des_vulkans [label="Gehe Berg" dir=both];
+    in_der_kammer_des_vulkans -> in_der_hoellenkammer [label="Gehe Schloth" dir=both];
+    in_der_hoellenkammer -> in_der_pestkammer [label="Gehe Hundt" dir=both];
+    in_der_pestkammer -> in_der_kammer_des_schicksals [label="Gehe Geruch" dir=both];
+    in_der_kammer_des_schicksals -> in_der_kammer_des_morgens [label="Gehe Schlag" dir=both];
+    in_der_kammer_des_morgens -> in_der_satanskammer [label="Gehe Rot" dir=both];
+    in_der_satanskammer -> in_der_kammer_kals [label="Gehe Geburt" dir=both];
+
+    im_glockenturm_ostseite -> am_ende_der_treppe [label="Rauf"];
+    am_ende_der_treppe -> im_glockenturm_ostseite [label="Runter"];
+
+    am_ende_der_treppe -> in_der_kuesterkammer [label="Ost"];
+    in_der_kuesterkammer -> am_ende_der_treppe [label="West"];
+
+    hauptaufgang_keller -> im_kohlekeller [label="Ost"];
+    im_kohlekeller -> hauptaufgang_keller [label="West"];
+
+    im_kohlekeller -> im_heizungskeller [label="Nord"];
+    im_heizungskeller -> im_kohlekeller [label="Süd"];
+
+    im_kohlekeller -> am_ende_des_ganges [label="Ost"];
+    am_ende_des_ganges -> im_kohlekeller [label="West"];
+
+    am_ende_des_ganges -> im_verlies [label="Nord"];
+    im_verlies -> am_ende_des_ganges [label="Süd"];
+
+    im_verlies -> im_geheimkeller [label="Ost"];
+    im_geheimkeller -> im_verlies [label="West"];
+
+    auf_der_orgelempore -> auf_der_orgel [label="Rauf"];
+    auf_der_orgel -> auf_der_orgelempore [label="Runter"];
+
+    westbalustrade -> am_ende_der_westbalustrade [label="Nord"];
+    am_ende_der_westbalustrade -> westbalustrade [label="Süd"];
+
+    am_ende_der_westbalustrade -> in_einer_kleinen_kammer_2 [label="Rauf"];
+    in_einer_kleinen_kammer_2 -> am_ende_der_westbalustrade [label="Runter"];
+
+    in_einer_kleinen_kammer_2 -> in_einem_schmalen_gang [label="Ost"];
+    in_einem_schmalen_gang -> in_einer_kleinen_kammer_2 [label="West"];
+
+    in_einem_schmalen_gang -> an_der_turmuhr [label="Rauf"];
+    an_der_turmuhr -> in_einem_schmalen_gang [label="Runter"];
+
+    im_kellergang -> im_brunnenkeller [label="Ost"];
+    im_brunnenkeller -> im_kellergang [label="West"];
+
+    im_brunnenkeller -> am_grund_des_brunnens [label="Klettere in Brunnen"];
+
+    am_grund_des_brunnens -> im_gang [label="Süd"];
+    im_gang -> am_grund_des_brunnens [label="Nord"];
+
+    im_gang -> an_einer_abzweigung [label="Süd"];
+    an_einer_abzweigung -> im_gang [label="Nord"];
+
+    an_einer_abzweigung -> ganggabelung [label="Ost"];
+    ganggabelung -> an_einer_abzweigung [label="West"];
+
+    ganggabelung -> gangabzweigung [label="Ost"];
+    gangabzweigung -> ganggabelung [label="West"];
+
+    gangabzweigung -> am_steinernen_tor [label="Runter"];
+    am_steinernen_tor -> gangabzweigung [label="Rauf"];
+
+    gangabzweigung -> am_ende_des_ganges_2 [label="Rauf"];
+    am_ende_des_ganges_2 -> gangabzweigung  [label="Runter"];
+
+    am_ende_des_ganges_2 -> tunnelverzweigung [label="Klettere in Schacht"];
+    tunnelverzweigung -> am_ende_des_ganges_2 [label="Rauf"];
+
+    am_steinernen_tor -> in_der_felsenhalle [label="Drücke Knopf"];
+
+    in_der_felsenhalle -> vor_der_statue [label="Ost"];
+    vor_der_statue -> an_der_suedlichen_wand [label="Süd"];
+
+    an_der_suedlichen_wand -> tunnelverzweigung [label="Greife Metallstange"];
+    
+    am_grund_des_brunnens -> im_brunnen;
+    im_brunnen -> im_brunnenkeller [label="Rauf"];
+
+    hauptaufgang_keller -> im_lagerraum [label="Nord"];
+    im_lagerraum -> hauptaufgang_keller [label="Süd"];
+
+    im_lagerraum -> hinter_den_kirchenbaenken [label="Nord"];
+    hinter_den_kirchenbaenken -> im_lagerraum [label="Süd"];
+
+    glockenturm_westseite -> im_astrolabium [label="Rauf"];
+    im_astrolabium -> glockenturm_westseite [label="Runter"];
+
+    im_astrolabium -> auf_der_hochebene [label="Richte Lichtpunkt auf Quadrant 141"];
+    
+    auf_der_hochebene -> am_lavasee [label="Nord"];
+    am_lavasee -> an_der_felswand_2 [label="Ost"];
+    an_der_felswand_2 -> nordseite_der_hochebene [label="Ost"];
+    nordseite_der_hochebene -> am_gletscherauslaeufer [label="Ost"];
+    am_gletscherauslaeufer -> an_der_schlucht_2 [label="Süd"];
+    an_der_schlucht_2 -> am_versteinerten_wald [label="Süd"];
+    am_versteinerten_wald -> auf_der_felsterasse [label="West"];
+    auf_der_felsterasse -> am_felsabsatz [label="West"];
+    am_felsabsatz -> am_geroellfeld [label="West"];
+    am_geroellfeld -> am_felsabsatz [label="Ost"];
+    am_felsabsatz -> vor_dem_huegel [label="Nord"];
+    vor_dem_huegel -> an_der_felswand_2 [label="Nord"];
+    an_der_schlucht_2 -> auf_dem_huegel [label="West"];
+    auf_dem_huegel -> an_der_schlucht_2 [label="Ost"];
+    am_felsabsatz -> vor_dem_huegel [label="Nord"];
+    vor_dem_huegel -> am_feuer [label="Ost"];
+    am_feuer -> bei_der_truhe [label="Ost"];
+    bei_der_truhe -> im_astrolabium [label="Zerstöre Stern"];
+
+    am_altar -> in_der_zisterne [label="Runter"];
+    in_der_zisterne -> am_altar [label="Rauf"];
+
+    in_der_kammer_der_schatten -> kapitell_game_over [label="Gehe Wald"];
+    in_der_kammer_der_schatten -> kapitell_game_over [label="Gehe Zeydt"];
+    in_der_kammer_der_schatten -> kapitell_game_over [label="Gehe Burg"];
+
+    in_der_kammer_der_sonne -> kapitell_game_over [label="Gehe Tod"];
+    in_der_kammer_der_sonne -> kapitell_game_over [label="Gehe Hitze"];
+    in_der_kammer_der_sonne -> kapitell_game_over [label="Gehe Gluth"];
+    in_der_kammer_der_sonne -> kapitell_game_over [label="Gehe Gesicht"];
+
+    in_der_kammer_des_himmels -> kapitell_game_over [label="Gehe Zeydt"];
+    in_der_kammer_des_himmels -> kapitell_game_over [label="Gehe Tanz"];
+
+    in_der_kammer_des_teufels -> kapitell_game_over [label="Gehe Thier"];
+
+    in_der_kammer_der_nacht -> kapitell_game_over [label="Gehe Licht"];
+
+    in_der_daemonenkammer -> kapitell_game_over [label="Gehe Fratze"];
+
+    in_der_hexenkammer -> kapitell_game_over [label="Gehe Steyn"];
+
+    in_der_kammer_des_bocks -> kapitell_game_over [label="Gehe Fratze"];
+    in_der_kammer_des_bocks -> kapitell_game_over [label="Gehe Gesicht"];
+    in_der_kammer_des_bocks -> kapitell_game_over [label="Gehe Tanz"];
+    in_der_kammer_des_bocks -> kapitell_game_over [label="Gehe Thier"];
+    in_der_kammer_des_bocks -> kapitell_game_over [label="Gehe Licht"];
+
+    in_der_kammer_des_vulkans -> kapitell_game_over [label="Gehe Steyn"];
+    in_der_kammer_des_vulkans -> kapitell_game_over [label="Gehe Gluth"];
+
+    in_der_hoellenkammer -> kapitell_game_over [label="Gehe Hitze"];
+    in_der_hoellenkammer -> kapitell_game_over [label="Gehe Angst"];
+    
+    in_der_pestkammer -> kapitell_game_over [label="Gehe Wald"];
+    in_der_pestkammer -> kapitell_game_over [label="Gehe Todt"];
+    in_der_pestkammer -> kapitell_game_over [label="Gehe Stunde"];
+    in_der_pestkammer -> kapitell_game_over [label="Gehe Horn"];
+    in_der_pestkammer -> kapitell_game_over [label="Gehe Blind"];
+
+    in_der_kammer_des_schicksals -> kapitell_game_over [label="Gehe Angst"];
+
+    in_der_kammer_des_morgens -> kapitell_game_over [label="Gehe Stunde"];
+
+    in_der_satanskammer -> kapitell_game_over [label="Gehe Horn"];
+
+    am_hauptportal -> vor_der_kathedrale [label="Süd"];
+
+    im_gewoelbekeller -> im_geheimkeller_2 [label="West"];
+    im_geheimkeller_2 -> im_gewoelbekeller [label="Ost"];
+
+    in_der_zisterne -> im_wasserbecken [label="Springe in Wasserbecken"];
+    im_wasserbecken -> dunkelheit [label="Nord"];
+    dunkelheit -> im_wasserbecken [label="Süd"];
+}
