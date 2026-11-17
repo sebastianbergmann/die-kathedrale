@@ -95,7 +95,6 @@ strict digraph G {
         color=lightgrey;
         node [style=filled,color=white,shape=rectangle];
 
-        in_der_kardinalsgruft [label="In der Kardinalsgruft"];
         im_schacht [label="Im Schacht"];
         in_der_kaverne [label="In der Kaverne"];
         am_farnstrauch [label="Am Farnstrauch"];
@@ -632,7 +631,6 @@ strict digraph G {
     vor_dem_huegel -> an_der_felswand_2 [label="Nord"];
     an_der_schlucht_2 -> auf_dem_huegel [label="West"];
     auf_dem_huegel -> an_der_schlucht_2 [label="Ost"];
-    am_felsabsatz -> vor_dem_huegel [label="Nord"];
     vor_dem_huegel -> am_feuer [label="Ost"];
     am_feuer -> bei_der_truhe [label="Ost"];
     bei_der_truhe -> im_astrolabium [label="Zerstöre Stern"];
