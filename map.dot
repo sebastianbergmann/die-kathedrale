@@ -1,4 +1,4 @@
-strict digraph G {
+digraph G {
     graph [fontsize=30 labelloc="t" label="" splines=true overlap=scale];
     ratio = auto;
 
