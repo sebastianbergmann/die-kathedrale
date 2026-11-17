@@ -1,37 +1,36 @@
+// Rooms, areas and exits of "Die Kathedrale". render.php turns this into the maps.
+//
+// Layout hints (all coordinates are grid cells, x grows to the east, y to the north):
+//
+//   origin="x,y"  on an area: where the bottom-left cell of the area sits on the page
+//   cell="x,y"    on a room: pins the room within its area; the first room of an area
+//                 is at 0,0 unless pinned, the others follow from the compass exits
+//   fatal=true    on a room: exits leading here are listed in the room they start from
 digraph G {
-    graph [fontsize=30 labelloc="t" label="" splines=true overlap=scale];
-    ratio = auto;
-
     subgraph cluster_draussen {
-        style=filled;
-        color=lightgrey;
-        node [style=filled,color=white,shape=rectangle];
+        label="Draußen"; origin="9,6"; fillcolor="#e6efe0";
 
         vor_der_kathedrale [label="Vor der Kathedrale"];
     }
 
     subgraph cluster_zisterne {
-        style=filled;
-        color=lightgrey;
-        node [style=filled,color=white,shape=rectangle];
+        label="Zisterne"; origin="3.75,2.5"; fillcolor="#dfecf5";
 
         in_der_zisterne [label="In der Zisterne"];
-        im_wasserbecken [label="Im Wasserbecken"];
+        im_wasserbecken [label="Im Wasserbecken" cell="-1,-1"];
         dunkelheit [label="Dunkelheit"];
     }
 
     subgraph cluster_fremde_welt {
-        style=filled;
-        color=lightgrey;
-        node [style=filled,color=white,shape=rectangle];
+        label="Fremde Welt"; origin="0,17"; fillcolor="#f6e2da";
 
         auf_der_hochebene [label="Auf der Hochebene"];
         am_lavasee [label="Am Lavasee"];
         an_der_felswand_2 [label="An der Felswand"];
         nordseite_der_hochebene [label="Nordseite der Hochebene"];
-        am_gletscherauslaeufer [label="Am Gletscherausläufer"];
+        am_gletscherauslaeufer [label="Am Gletscherausläufer" cell="5,1"];
         an_der_schlucht_2 [label="An der Schlucht"];
-        am_versteinerten_wald [label="Am versteinerten Wald"];
+        am_versteinerten_wald [label="Am versteinerten Wald" cell="5,-1"];
         auf_der_felsterasse [label="Auf der Felsterasse"];
         am_felsabsatz [label="Am Felsabsatz"];
         am_geroellfeld [label="Am Geröllfeld"];
@@ -42,9 +41,7 @@ digraph G {
     }
 
     subgraph cluster_keller_nordwest {
-        style=filled;
-        color=lightgrey;
-        node [style=filled,color=white,shape=rectangle];
+        label="Keller (Nordwest)"; origin="13.5,8.25"; fillcolor="#e7e5e1";
 
         hauptaufgang_keller [label="Hauptaufgang / Keller"];
         im_kellergang [label="Im Kellergang"];
@@ -60,9 +57,7 @@ digraph G {
     }
 
     subgraph cluster_brunnen {
-        style=filled;
-        color=lightgrey;
-        node [style=filled,color=white,shape=rectangle];
+        label="Brunnen"; origin="13.5,1.5"; fillcolor="#dde9ee";
 
         am_grund_des_brunnens [label="Am Grund des Brunnens"];
         im_gang [label="Im Gang"];
@@ -71,17 +66,15 @@ digraph G {
         gangabzweigung [label="Gangabzweigung"];
         am_steinernen_tor [label="Am steinernen Tor"];
         am_ende_des_ganges_2 [label="Am Ende des Ganges"];
-        tunnelverzweigung [label="Tunnelverzweigung"];
-        in_der_felsenhalle [label="In der Felsenhalle"];
+        tunnelverzweigung [label="Tunnelverzweigung" cell="4,-2"];
+        in_der_felsenhalle [label="In der Felsenhalle" cell="2,-3"];
         vor_der_statue [label="Vor der Statue"];
         an_der_suedlichen_wand [label="An der südlichen Wand"];
-        im_brunnen [label="Im Brunnen"];
+        im_brunnen [label="Im Brunnen" cell="1,1"];
     }
 
     subgraph cluster_keller_suedwest {
-        style=filled;
-        color=lightgrey;
-        node [style=filled,color=white,shape=rectangle];
+        label="Keller (Südwest)"; origin="0,2"; fillcolor="#e7e5e1";
 
         im_gewoelbekeller [label="Im Gewölbekeller"];
         in_einem_kellerraum [label="In einem Kellerraum"];
@@ -91,30 +84,26 @@ digraph G {
     }
 
     subgraph cluster_kaverne {
-        style=filled;
-        color=lightgrey;
-        node [style=filled,color=white,shape=rectangle];
+        label="Kaverne"; origin="7.5,0.5"; fillcolor="#e1ecdc";
 
         im_schacht [label="Im Schacht"];
         in_der_kaverne [label="In der Kaverne"];
         am_farnstrauch [label="Am Farnstrauch"];
         am_tuempel [label="Am Tümpel"];
         am_korallenbaum [label="Am Korallenbaum"];
-        auf_dem_moosteppich [label="Auf dem Moosteppich"];
+        auf_dem_moosteppich [label="Auf dem Moosteppich" cell="-3,2"];
         am_sumpf [label="Am Sumpf"];
         an_der_schlucht [label="An der Schlucht"];
         im_unterholz [label="Im Unterholz"];
-        am_schachtelhalmwald [label="Am Schachtelhalmwald"];
+        am_schachtelhalmwald [label="Am Schachtelhalmwald" cell="-4,-2"];
         an_der_felswand [label="An der Felswand"];
         in_der_felswand [label="In der Felswand"];
-        in_zehn_metern_hoehe [label="In zehn Metern Höhe"];
-        in_zwanzig_metern_hoehe [label="In zwanzig Metern Höhe"];
+        in_zehn_metern_hoehe [label="In zehn Metern Höhe" cell="-2,0"];
+        in_zwanzig_metern_hoehe [label="In zwanzig Metern Höhe" cell="-2,1"];
     }
 
     subgraph cluster_keller_suedost {
-        style=filled;
-        color=lightgrey;
-        node [style=filled,color=white,shape=rectangle];
+        label="Keller (Südost)"; origin="19,2"; fillcolor="#e7e5e1";
 
         ostaufgang_keller [label="Ostaufgang / Keller"];
         werkstatt [label="Werkstatt"];
@@ -125,22 +114,18 @@ digraph G {
     }
 
     subgraph cluster_chor {
-	    style=filled;
-	    color=lightgrey;
-	    node [style=filled,color=white,shape=rectangle];
+        label="Chor"; origin="8.5,13"; fillcolor="#eee9f5";
 
         chor [label="Chor"];
         westtreppe_chor [label="Westtreppe / Chor"];
-        auf_der_orgelempore [label="Auf der Orgelempore"];
+        auf_der_orgelempore [label="Auf der Orgelempore" cell="0,1"];
         osttreppe_chor [label="Osttreppe / Chor"];
         an_der_stiege [label="An der Stiege"];
         auf_der_orgel [label="Auf der Orgel"];
     }
 
     subgraph cluster_glockenturm {
-	    style=filled;
-	    color=lightgrey;
-	    node [style=filled,color=white,shape=rectangle];
+        label="Glockenturm"; origin="7.5,17.5"; fillcolor="#efe6d6";
 
         auf_der_stiege [label="Auf der Stiege"];
         an_der_tuer_zum_glockenturm [label="An der Tür zum Glockenturm"];
@@ -155,9 +140,7 @@ digraph G {
     }
 
     subgraph cluster_balustrade {
-	    style=filled;
-	    color=lightgrey;
-	    node [style=filled,color=white,shape=rectangle];
+        label="Balustrade"; origin="0,11"; fillcolor="#e3f0f1";
 
         westbalustrade [label="Westbalustrade"];
         mittelbalustrade [label="Mittelbalustrade"];
@@ -170,9 +153,7 @@ digraph G {
     }
 
     subgraph cluster_turmuhr {
-	    style=filled;
-	    color=lightgrey;
-	    node [style=filled,color=white,shape=rectangle];
+        label="Turmuhr"; origin="3.25,12.5"; fillcolor="#f3e9e4";
 
         in_einer_kleinen_kammer_2 [label="In einer kleinen Kammer"];
         in_einem_schmalen_gang [label="In einem schmalen Gang"];
@@ -180,33 +161,27 @@ digraph G {
     }
 
     subgraph cluster_empore {
-	    style=filled;
-	    color=lightgrey;
-	    node [style=filled,color=white,shape=rectangle];
+        label="Empore"; origin="0,6"; fillcolor="#e9eef6";
 
         westturm_hauptempore [label="Westturm / Hauptempore"];
         auf_der_hauptempore [label="Auf der Hauptempore"];
         balkon_der_hauptempore [label="Balkon der Hauptempore"];
         in_einem_engen_tunnel [label="In einem engen Tunnel"];
-        ostturm_hauptempore [label="Ostturm / Hauptempore"];
+        ostturm_hauptempore [label="Ostturm / Hauptempore" cell="2,0"];
         ostempore [label="Ostempore"];
         westempore [label="Westempore"];
     }
 
     subgraph cluster_mosaik {
-	    style=filled;
-	    color=lightgrey;
-	    node [style=filled,color=white,shape=rectangle];
+        label="Mosaik"; origin="3.75,6.5"; fillcolor="#f6e6ee";
 
         auf_einem_absatz [label="Auf einem Absatz"];
         am_ende_des_tunnels [label="Am Ende des Tunnels"];
-        in_der_nabe [label="In der Nabe"];
+        in_der_nabe [label="In der Nabe" cell="1,2"];
     }
 
     subgraph cluster_erdgeschoss {
-	    style=filled;
-	    color=lightgrey;
-	    node [style=filled,color=white,shape=rectangle];
+        label="Erdgeschoss"; origin="7,7.5"; fillcolor="#f6edd9";
 
         am_westturm [label="Am Westturm"];
         unter_der_westempore [label="Unter der Westempore"];
@@ -220,42 +195,38 @@ digraph G {
         unter_der_ostempore [label="Unter der Ostempore"];
         am_ostportal [label="Am Ostportal"];
         osttreppe [label="Osttreppe"];
-        in_der_sakristei [label="In der Sakristei"];
-        im_beichtstuhl_des_heiligen_hesekiel [label="Im Beichtstuhl des Heiligen Hesekiel"];
+        in_der_sakristei [label="In der Sakristei" cell="1,4"];
+        im_beichtstuhl_des_heiligen_hesekiel [label="Im Beichtstuhl des Heiligen Hesekiel" cell="3,0"];
         im_beichtstuhl_des_heiligen_bonifatius [label="Im Beichtstuhl des Heiligen Bonifatius"];
         auf_der_kanzel [label="Auf der Kanzel"];
         auf_dem_kanzeldach [label="Auf dem Kanzeldach"];
     }
 
     subgraph cluster_kapitell {
-	    style=filled;
-	    color=lightgrey;
-	    node [style=filled,color=white,shape=rectangle];
+        label="Kapitell"; origin="13.5,14"; fillcolor="#efe4f0";
 
         im_kapitell [label="Im Kapitell"];
-        in_der_kammer_der_schatten [label="In der Kammer der Schatten"];
-        in_der_kammer_der_sonne [label="In der Kammer der Sonne"];
-        in_der_kammer_des_himmels [label="In der Kammer des Himmels"];
-        in_der_kammer_des_teufels [label="In der Kammer des Teufels"];
-        in_der_kammer_der_nacht [label="In der Kammer der Nacht"];
-        in_der_daemonenkammer [label="In der Dämonenkammer"];
-        in_der_hexenkammer [label="In der Hexenkammer"];
-        in_der_kammer_des_bocks [label="In der Kammer des Bocks"];
-        in_der_kammer_des_vulkans [label="In der Kammer des Vulkans"];
-        in_der_hoellenkammer [label="In der Höllenkammer"];
-        in_der_pestkammer [label="In der Pestkammer"];
-        in_der_kammer_des_schicksals [label="In der Kammer des Schicksals"];
-        in_der_kammer_des_morgens [label="In der Kammer des Morgens"];
-        in_der_satanskammer [label="In der Satanskammer"];
-        in_der_kammer_kals [label="In der Kammer Kals"];
+        in_der_kammer_der_schatten [label="In der Kammer der Schatten" cell="0,1"];
+        in_der_kammer_der_sonne [label="In der Kammer der Sonne" cell="0,2"];
+        in_der_kammer_des_himmels [label="In der Kammer des Himmels" cell="0,3"];
+        in_der_kammer_des_teufels [label="In der Kammer des Teufels" cell="1,3"];
+        in_der_kammer_der_nacht [label="In der Kammer der Nacht" cell="1,2"];
+        in_der_daemonenkammer [label="In der Dämonenkammer" cell="1,1"];
+        in_der_hexenkammer [label="In der Hexenkammer" cell="1,0"];
+        in_der_kammer_des_bocks [label="In der Kammer des Bocks" cell="2,0"];
+        in_der_kammer_des_vulkans [label="In der Kammer des Vulkans" cell="2,1"];
+        in_der_hoellenkammer [label="In der Höllenkammer" cell="2,2"];
+        in_der_pestkammer [label="In der Pestkammer" cell="2,3"];
+        in_der_kammer_des_schicksals [label="In der Kammer des Schicksals" cell="3,3"];
+        in_der_kammer_des_morgens [label="In der Kammer des Morgens" cell="3,2"];
+        in_der_satanskammer [label="In der Satanskammer" cell="3,1"];
+        in_der_kammer_kals [label="In der Kammer Kals" cell="3,0"];
 
-        kapitell_game_over [label="Game Over" shape=star];
+        kapitell_game_over [label="Game Over" fatal=true];
     }
 
     subgraph cluster_kammern_raetsel_4 {
-	    style=filled;
-	    color=lightgrey;
-	    node [style=filled,color=white,shape=rectangle];
+        label="Kammern (Rätsel 4)"; origin="18.5,10"; fillcolor="#e8f1e4";
 
         auf_der_wendeltreppe [label="Auf der Wendeltreppe"];
         in_einer_kleinen_kammer [label="In einer kleinen Kammer"];
